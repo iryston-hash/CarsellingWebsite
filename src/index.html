@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet"/>
+   <link rel="stylesheet" href="https://unpkg.com/transition-style">
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <header id="head" class="header">
+      <div class="container">
+        <div class="header__top">
+          <a href="#"
+            ><img class="header__logo" src="images/logo.svg" alt="logo"
+          /></a>
+          <a href="tel:370600000000" class="header__phone">+48 60 000 0000</a>
+        </div>
+
+        <div class="header__content">
+          <h1 class="header__content-title" data-aos="zoom-out" data-aos-duration="1500" >Automobiles From Europe</h1>
+          <div class="header__content-subtitle" data-aos="zoom-out" data-aos-duration="2000" >
+            Order a car with discount’s from us!
+          </div>
+          <p class="header__content-text" data-aos="zoom-out" data-aos-duration="3000" >
+            Selection, purchase, delivery, customs clearance, repair,
+            registration under the contract
+          </p>
+          <a class="header__content-btn" data-aos="zoom-out-up" data-aos-duration="1000" href="#">consultation</a>
+          <div class="header__link-items" data-aos="zoom-out-down" data-aos-duration="1000">
+            <a class="header__link-item" href="#">
+              <svg
+                class="link"
+                width="26"
+                height="26"
+                viewBox="0 0 26 26"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M18.3957 0.0493164H6.82775C3.06287 0.0493164 0 3.11218 0 6.87707V18.4452C0 22.2099 3.06287 25.2727 6.82775 25.2727H18.3959C22.1606 25.2727 25.2234 22.2099 25.2234 18.4452V6.87707C25.2234 3.11218 22.1606 0.0493164 18.3957 0.0493164V0.0493164ZM23.7447 18.4452C23.7447 21.3945 21.3452 23.794 18.3957 23.794H6.82775C3.87823 23.794 1.4787 21.3945 1.4787 18.4452V6.87707C1.4787 3.92755 3.87823 1.52802 6.82775 1.52802H18.3959C21.3452 1.52802 23.7447 3.92755 23.7447 6.87707V18.4452Z"
+                  fill="white"
+                />
+                <path
+                  d="M12.6117 5.7642C8.80869 5.7642 5.71484 8.85805 5.71484 12.661C5.71484 16.464 8.80869 19.5579 12.6117 19.5579C16.4147 19.5579 19.5085 16.464 19.5085 12.661C19.5085 8.85805 16.4147 5.7642 12.6117 5.7642ZM12.6117 18.0792C9.62425 18.0792 7.19355 15.6487 7.19355 12.661C7.19355 9.67361 9.62425 7.2429 12.6117 7.2429C15.5993 7.2429 18.0298 9.67361 18.0298 12.661C18.0298 15.6487 15.5993 18.0792 12.6117 18.0792Z"
+                  fill="white"
+                />
+                <path
+                  d="M19.6735 3.31483C18.5496 3.31483 17.6356 4.22911 17.6356 5.35276C17.6356 6.47661 18.5496 7.39089 19.6735 7.39089C20.7973 7.39089 21.7116 6.47661 21.7116 5.35276C21.7116 4.22891 20.7973 3.31483 19.6735 3.31483ZM19.6735 5.91199C19.3652 5.91199 19.1143 5.66105 19.1143 5.35276C19.1143 5.04428 19.3652 4.79353 19.6735 4.79353C19.982 4.79353 20.2329 5.04428 20.2329 5.35276C20.2329 5.66105 19.982 5.91199 19.6735 5.91199Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+            <a class="header__link-item" href="#">
+              <svg
+                class="link"
+                width="25"
+                height="19"
+                viewBox="0 0 25 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M24.7936 0.329932C24.5487 0.0331927 24.1427 -0.0768511 23.7816 0.0552015L0.849204 8.29881C0.391059 8.46444 0.069481 8.8661 0.00978113 9.34707C-0.0493466 9.82576 0.16275 10.2902 0.560622 10.5576L3.83859 12.7835C4.15616 12.9992 4.56452 13.0223 4.9046 12.8438L12.0152 9.11389L6.47339 13.2301C6.21323 13.4234 6.05778 13.7317 6.05778 14.0547V17.8675C6.05778 18.2608 6.27465 18.6211 6.62369 18.8082C6.97331 18.9953 7.39559 18.9767 7.72766 18.7589L10.2181 17.1156L12.6671 18.7767C12.8817 18.923 13.1373 19 13.3951 19C13.4823 19 13.5699 18.9911 13.6561 18.9732C14 18.9019 14.3042 18.6905 14.4909 18.3934L24.8663 1.37497C25.0683 1.0473 25.0393 0.627998 24.7936 0.329932V0.329932ZM13.3404 17.4689L10.8042 15.7486C10.6278 15.6287 10.4245 15.5687 10.2213 15.5687C10.0226 15.5687 9.82364 15.6262 9.6495 15.7412L7.52339 17.1441V14.2698L17.309 7.00143C17.746 6.6768 17.856 6.08598 17.5648 5.62721C17.2734 5.16844 16.6899 5.01343 16.2075 5.26653L4.45065 11.4337L1.67814 9.55103L22.7957 1.95991L13.3404 17.4689Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+            <a class="header__link-item" href="#">
+              <svg
+                class="link"
+                width="26"
+                height="26"
+                viewBox="0 0 26 26"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M21.6408 3.63197C19.3304 1.32154 16.2592 0.0493164 12.9916 0.0493164C12.9914 0.0493164 12.9907 0.0493164 12.9905 0.0493164C11.3743 0.0495088 9.79942 0.362416 8.30975 0.979571C6.81988 1.59672 5.48511 2.48907 4.34221 3.63197C2.03197 5.94221 0.759755 9.01393 0.759755 12.2812C0.759755 14.2296 1.22989 16.166 2.12069 17.8912L0.0646627 23.7648C-0.0802445 24.1792 0.0223259 24.6295 0.332924 24.9399C0.550188 25.1573 0.836154 25.2728 1.1302 25.2728C1.25625 25.2728 1.38365 25.2516 1.50796 25.2081L7.38161 23.1523C9.10683 24.0431 11.0432 24.5132 12.9916 24.5132C16.2589 24.5132 19.3304 23.2408 21.6408 20.9306C23.9511 18.6203 25.2235 15.5486 25.2235 12.2814C25.2235 9.01393 23.9513 5.94221 21.6408 3.63197ZM20.5947 19.8845C18.5639 21.9155 15.8636 23.0338 12.9916 23.0338C11.2346 23.0338 9.48921 22.5992 7.94392 21.7767C7.66373 21.6278 7.33254 21.6022 7.03522 21.7063L1.69886 23.5739L3.56668 18.2376C3.67079 17.9399 3.64501 17.6087 3.49606 17.3287C2.67376 15.7838 2.23904 14.0383 2.23904 12.2812C2.23904 9.4092 3.3575 6.70889 5.38832 4.67807C7.41894 2.64745 10.1189 1.52899 12.9907 1.5286H12.9916C15.8638 1.5286 18.5639 2.64706 20.5947 4.67807C22.6257 6.70889 23.7442 9.40901 23.7442 12.2812C23.7442 15.1533 22.6257 17.8537 20.5947 19.8845Z"
+                  fill="white"
+                />
+                <path
+                  d="M17.5374 13.3738C16.9748 12.8112 16.0591 12.8112 15.4964 13.3738L14.881 13.9893C13.3528 13.1566 12.1162 11.92 11.2833 10.3918L11.8988 9.77638C12.4617 9.21368 12.4617 8.29805 11.8988 7.73536L10.2403 6.07691C9.67763 5.51422 8.762 5.51422 8.1993 6.07691L6.87262 7.40359C6.11268 8.16354 6.07477 9.47001 6.76582 11.0825C7.36585 12.4825 8.46391 14.0212 9.85775 15.4151C11.2516 16.8089 12.7903 17.907 14.1903 18.507C14.9564 18.8353 15.6533 18.9991 16.2554 18.9991C16.9207 18.9991 17.4703 18.7991 17.8692 18.4002L19.1959 17.0733V17.0735C19.4686 16.8008 19.6187 16.4385 19.6187 16.053C19.6187 15.6673 19.4686 15.305 19.1959 15.0325L17.5374 13.3738ZM16.8231 17.3541C16.6062 17.571 15.9392 17.647 14.7732 17.1474C13.542 16.6197 12.1678 15.6329 10.9039 14.369C9.63991 13.105 8.65327 11.731 8.1256 10.4998C7.62583 9.33376 7.70185 8.66658 7.91872 8.4497L9.22 7.14842L10.8273 8.75587L10.0569 9.5264C9.70861 9.87471 9.62451 10.403 9.84794 10.841C10.8607 12.8269 12.4459 14.4121 14.4319 15.4249C14.87 15.6483 15.3983 15.5644 15.7466 15.2159L16.5169 14.4455L18.1244 16.053L16.8231 17.3541Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+            <a class="header__link-item" href="#">
+              <svg
+                class="link"
+                width="14"
+                height="25"
+                viewBox="0 0 14 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8.64758 25H4.69753C4.03774 25 3.50103 24.456 3.50103 23.7873V14.7572H1.19649C0.53671 14.7572 0 14.213 0 13.5445V9.67503C0 9.00631 0.53671 8.46233 1.19649 8.46233H3.50103V6.52466C3.50103 4.60339 4.09627 2.96879 5.2222 1.79787C6.3532 0.621605 7.93378 0 9.79307 0L12.8056 0.00495908C13.4642 0.00610352 14 0.550079 14 1.21765V4.81033C14 5.47905 13.4635 6.02303 12.8039 6.02303L10.7756 6.02379C10.157 6.02379 9.99952 6.14948 9.96583 6.18801C9.91032 6.25191 9.84426 6.43253 9.84426 6.9313V8.46214H12.6515C12.8628 8.46214 13.0675 8.51498 13.2435 8.61454C13.6231 8.8295 13.859 9.23595 13.859 9.67522L13.8575 13.5447C13.8575 14.213 13.3208 14.757 12.661 14.757H9.84426V23.7873C9.84426 24.456 9.30736 25 8.64758 25ZM4.94707 23.5344H8.39804V14.101C8.39804 13.6545 8.75654 13.2914 9.1969 13.2914H12.4115L12.4128 9.92794H9.19671C8.75635 9.92794 8.39804 9.56478 8.39804 9.11827V6.9313C8.39804 6.35872 8.45544 5.70755 8.88187 5.21812C9.39713 4.62646 10.2092 4.55818 10.7752 4.55818L12.554 4.55742V1.47018L9.79195 1.46561C6.80391 1.46561 4.94707 3.40424 4.94707 6.52466V9.11827C4.94707 9.56459 4.58876 9.92794 4.1484 9.92794H1.44603V13.2914H4.1484C4.58876 13.2914 4.94707 13.6545 4.94707 14.101V23.5344ZM12.8028 1.47057H12.8029H12.8028Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+          </div>
+          <img
+            class="header__car" src="images/herocar.png" data-aos="fade-left" data-aos-duration="2000" alt="Photo of car mercedes"
+          />
+          <img
+            class="header__truck" src="images/truck.webp" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500" alt="Truck that is transporting cars"
+          />
+        </div>
+      </div>
+    </header>
+     <section class="services">
+      <div class="container">
+        <h2 class="title" data-aos="fade-right">Services</h2>
+        <div class="services__inner" >
+          <div class="services__content" data-aos="fade-up"
+          data-aos-duration="3000">
+            <div class="services__content-box" >
+              <h6 class="services__content-title">
+                Why import a car from the EU?
+              </h6>
+              <div class="services__content-textbox">
+                <p class="services__content-text">
+                  We compared the European markets with EU ones and realized
+                  that buying a car in Eu is several times more profitable, no
+                  matter how paradoxical it may sound. This is due to thoughtful
+                  logistics, the level of development of services for assessing
+                  the condition of a car and the process of buying a car itself.
+                </p>
+                <p class="services__content-text">
+                  We compared the European markets with EU ones and realized
+                  that buying a car in Eu is several times more profitable, no
+                  matter how paradoxical it may sound. This is due to thoughtful
+                  logistics, the level of development of services for assessing
+                  the condition of a car and the process of buying a car itself.
+                </p>
+              </div>
+            </div>
+            <div class="services__content-box">
+              <h6 class="services__content-title">Why such a low price?</h6>
+              <div class="services__content-textbox">
+                <p class="services__content-text">
+                  Damaged cars from the EU are redeemed from auctions of
+                  insurance companies. At these auctions, the car loses half the
+                  price even due to minimal damage. If we take into account the
+                  cash costs, namely the ransom, delivery, customs and repairs,
+                  then the price of a car similar in condition in America or
+                  western EU will be 35-50% higher, and new ones will cost space
+                  money.
+                </p>
+              </div>
+            </div>
+            <a class="services__btn--decor"  href="#">consultation</a>
+          </div>
+          <ol class="services__list" data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1000" >
+            <li class="services__item">
+              <p class="services__item-title">Car puchase</p>
+              <p class="services__item-text">Car selection and expert check</p>
+            </li>
+            <li class="services__item">
+              <p class="services__item-title">Shipping by sea</p>
+              <p class="services__item-text">
+                Calculation of the optimal cost of car delivery
+              </p>
+            </li>
+            <li class="services__item">
+              <p class="services__item-title">Car customs clearance</p>
+              <p class="services__item-text">
+                Passage of customs clearance (2-3 days)
+              </p>
+            </li>
+            <li class="services__item">
+              <p class="services__item-title">Auto repair</p>
+              <p class="services__item-text">
+                Comprehensive car repair at the service station
+              </p>
+            </li>
+            <li class="services__item">
+              <p class="services__item-title">Certificate</p>
+              <p class="services__item-text">Service provided on request</p>
+            </li>
+            <li class="services__item">
+              <p class="services__item-title">Registration</p>
+              <p class="services__item-text">Registration of cars in Poland</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+   <section class="why">
+      <div class="container">
+        <div class="why__inner">
+          <img
+            class="why__image" src="images/whycar1.png"  alt="picture of random car view from sky" 
+          />
+          <div class="why__content" >
+            <h2 class="title why__title-right" data-aos="fade-left">why us?</h2>
+            <div class="why__content-box" data-aos="fade-up"
+            data-aos-duration="3000">
+              <img class="boxcar"  src="images/whycar2.png" alt="" />
+              <ul class="why__list">
+                <li class="why__item">
+                  <p class="why__item-num">650</p>
+                  <p class="why__item-title">successfully delivered cars</p>
+                  <p class="why__item-subtitle">
+                    great experience in importing cars from the EU on a turnkey
+                    basis, all customers were 100% satisfied
+                  </p>
+                </li>
+                <li class="why__item">
+                  <p class="why__item-num">5</p>
+                  <p class="why__item-title">years on the Eu market</p>
+                  <p class="why__item-subtitle">
+                    We work throughout Europe, we work under a contract with
+                    clients
+                  </p>
+                </li>
+                <li class="why__item">
+                  <p class="why__item-num">100 %</p>
+                  <p class="why__item-title">customer trust</p>
+                  <p class="why__item-subtitle">
+                    Online reporting. You are always aware of the status of the
+                    selection of your car. Photo and video report
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+    <section class="carousel" data-aos="fade-up">
+      <div class="container">
+        <h2 class="title carousel-title">CARS SUPPLIED BY US</h2>
+        <div class="carousel__inner" >
+          <div class="carousel__item">
+            <div class="carousel__item-box">
+              <img
+                class="carousel__item-img"
+                src="images/carousel/carousel1.png"
+                alt="carousel gallery"/>
+              <h4 class="carousel__item-title">INFINITI QX50 2016</h4>
+              <p class="carousel__item-subtitle">Saving $4500</p>
+            </div>
+            </div>
+
+            <div class="carousel__item">
+            <div class="carousel__item-box">
+              <img
+                class="carousel__item-img"
+                src="images/carousel/carousel2.png"
+                alt=""
+              />
+              <h4 class="carousel__item-title">TESLA MODEL 3 2018</h4>
+              <p class="carousel__item-subtitle">Saving $5500</p>
+            </div>
+            </div>
+            <div class="carousel__item">
+            <div class="carousel__item-box">
+              <img
+                class="carousel__item-img"
+                src="images/carousel/carousel3.png"
+                alt=""
+              />
+              <h4 class="carousel__item-title">Toyota 2018</h4>
+              <p class="carousel__item-subtitle">Saving $3500</p>
+            </div>
+          </div>
+          <div class="carousel__item">
+            <div class="carousel__item-box">
+              <img
+                class="carousel__item-img"
+                src="images/carousel/carousel1.png"
+                alt=""
+              />
+              <h4 class="carousel__item-title">BMW e90 2016</h4>
+              <p class="carousel__item-subtitle">Saving $1500</p>
+            </div>
+          </div>
+          <div class="carousel__item">
+            <div class="carousel__item-box">
+              <img
+                class="carousel__item-img"
+                src="images/carousel/carousel2.png"
+                alt=""
+              />
+              <h4 class="carousel__item-title">Mercedes-Benz e-class 2016</h4>
+              <p class="carousel__item-subtitle">Saving $4500</p>
+            </div>
+          </div>
+          <div class="carousel__item">
+            <div class="carousel__item-box">
+              <img
+                class="carousel__item-img"
+                src="images/carousel/carousel3.png"
+                alt=""
+              />
+              <h4 class="carousel__item-title">INFINITI QX50 2016</h4>
+              <p class="carousel__item-subtitle">Saving $4500</p>
+            </div>
+          </div>
+          <div class="carousel__item">
+            <div class="carousel__item-box">
+              <img
+                class="carousel__item-img"
+                src="images/carousel/carousel1.png"
+                alt=""
+              />
+              <h4 class="carousel__item-title">INFINITI QX50 2016</h4>
+              <p class="carousel__item-subtitle">Saving $4500</p>
+            </div>
+          </div>
+          <div class="carousel__item">
+            <div class="carousel__item-box">
+              <img
+                class="carousel__item-img"
+                src="images/carousel/carousel2.png"
+                alt=""
+              />
+              <h4 class="carousel__item-title">INFINITI QX50 2016</h4>
+              <p class="carousel__item-subtitle">Saving $4500</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+
+     <section class="contacts">
+      <div class="container">
+        <div class="contacts__inner">
+          <div class="contacts__info" >
+            <h2 class="title">Contacts</h2>
+            <ul class="contacts__list">
+              <li class="contacts__item">
+                <p class="contacts__item-title">Adress</p>
+                <p class="contacts__item-subtitle">Poland, Warsaw</p>
+                <p class="contacts__item-txt">Baczkiw 37 St.</p>
+              </li>
+              <li class="contacts__item">
+                <p class="contacts__item-title">Work time</p>
+                <p class="contacts__item-subtitle">9:00 to 19:00,</p>
+                <p class="contacts__item-txt">We don't work on sundays</p>
+              </li>
+              <li class="contacts__item">
+                <p class="contacts__item-title">Telephone</p>
+                <a href="tel:370600000000" class="contacts__phone">+ 48 60 000 0000</a>
+              </li>
+            </ul>
+          </div>
+            <form  class="contacts__form">
+              <h2 class="title contacts__title">Leave a quote</h2>
+              <input class="contacts__input" placeholder="Your name" type="text">
+              <input class="contacts__input" placeholder="Your telephone number" type="text">
+              <button class="contacts__btn" type="submit">leave the quote</button>
+            </form>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <a href="#"
+            ><img class="footer__logo" src="images/logo.svg" alt="logo"
+          /></a>
+          <div class="footer__link-items">
+            <a class="footer__link-item" href="#">
+              <svg
+                class="link"
+                width="26"
+                height="26"
+                viewBox="0 0 26 26"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M18.3957 0.0493164H6.82775C3.06287 0.0493164 0 3.11218 0 6.87707V18.4452C0 22.2099 3.06287 25.2727 6.82775 25.2727H18.3959C22.1606 25.2727 25.2234 22.2099 25.2234 18.4452V6.87707C25.2234 3.11218 22.1606 0.0493164 18.3957 0.0493164V0.0493164ZM23.7447 18.4452C23.7447 21.3945 21.3452 23.794 18.3957 23.794H6.82775C3.87823 23.794 1.4787 21.3945 1.4787 18.4452V6.87707C1.4787 3.92755 3.87823 1.52802 6.82775 1.52802H18.3959C21.3452 1.52802 23.7447 3.92755 23.7447 6.87707V18.4452Z"
+                  fill="white"
+                />
+                <path
+                  d="M12.6117 5.7642C8.80869 5.7642 5.71484 8.85805 5.71484 12.661C5.71484 16.464 8.80869 19.5579 12.6117 19.5579C16.4147 19.5579 19.5085 16.464 19.5085 12.661C19.5085 8.85805 16.4147 5.7642 12.6117 5.7642ZM12.6117 18.0792C9.62425 18.0792 7.19355 15.6487 7.19355 12.661C7.19355 9.67361 9.62425 7.2429 12.6117 7.2429C15.5993 7.2429 18.0298 9.67361 18.0298 12.661C18.0298 15.6487 15.5993 18.0792 12.6117 18.0792Z"
+                  fill="white"
+                />
+                <path
+                  d="M19.6735 3.31483C18.5496 3.31483 17.6356 4.22911 17.6356 5.35276C17.6356 6.47661 18.5496 7.39089 19.6735 7.39089C20.7973 7.39089 21.7116 6.47661 21.7116 5.35276C21.7116 4.22891 20.7973 3.31483 19.6735 3.31483ZM19.6735 5.91199C19.3652 5.91199 19.1143 5.66105 19.1143 5.35276C19.1143 5.04428 19.3652 4.79353 19.6735 4.79353C19.982 4.79353 20.2329 5.04428 20.2329 5.35276C20.2329 5.66105 19.982 5.91199 19.6735 5.91199Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+            <a class="header__link-item" href="#">
+              <svg
+                class="link"
+                width="25"
+                height="19"
+                viewBox="0 0 25 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M24.7936 0.329932C24.5487 0.0331927 24.1427 -0.0768511 23.7816 0.0552015L0.849204 8.29881C0.391059 8.46444 0.069481 8.8661 0.00978113 9.34707C-0.0493466 9.82576 0.16275 10.2902 0.560622 10.5576L3.83859 12.7835C4.15616 12.9992 4.56452 13.0223 4.9046 12.8438L12.0152 9.11389L6.47339 13.2301C6.21323 13.4234 6.05778 13.7317 6.05778 14.0547V17.8675C6.05778 18.2608 6.27465 18.6211 6.62369 18.8082C6.97331 18.9953 7.39559 18.9767 7.72766 18.7589L10.2181 17.1156L12.6671 18.7767C12.8817 18.923 13.1373 19 13.3951 19C13.4823 19 13.5699 18.9911 13.6561 18.9732C14 18.9019 14.3042 18.6905 14.4909 18.3934L24.8663 1.37497C25.0683 1.0473 25.0393 0.627998 24.7936 0.329932V0.329932ZM13.3404 17.4689L10.8042 15.7486C10.6278 15.6287 10.4245 15.5687 10.2213 15.5687C10.0226 15.5687 9.82364 15.6262 9.6495 15.7412L7.52339 17.1441V14.2698L17.309 7.00143C17.746 6.6768 17.856 6.08598 17.5648 5.62721C17.2734 5.16844 16.6899 5.01343 16.2075 5.26653L4.45065 11.4337L1.67814 9.55103L22.7957 1.95991L13.3404 17.4689Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+            <a class="header__link-item" href="#">
+              <svg
+                class="link"
+                width="26"
+                height="26"
+                viewBox="0 0 26 26"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M21.6408 3.63197C19.3304 1.32154 16.2592 0.0493164 12.9916 0.0493164C12.9914 0.0493164 12.9907 0.0493164 12.9905 0.0493164C11.3743 0.0495088 9.79942 0.362416 8.30975 0.979571C6.81988 1.59672 5.48511 2.48907 4.34221 3.63197C2.03197 5.94221 0.759755 9.01393 0.759755 12.2812C0.759755 14.2296 1.22989 16.166 2.12069 17.8912L0.0646627 23.7648C-0.0802445 24.1792 0.0223259 24.6295 0.332924 24.9399C0.550188 25.1573 0.836154 25.2728 1.1302 25.2728C1.25625 25.2728 1.38365 25.2516 1.50796 25.2081L7.38161 23.1523C9.10683 24.0431 11.0432 24.5132 12.9916 24.5132C16.2589 24.5132 19.3304 23.2408 21.6408 20.9306C23.9511 18.6203 25.2235 15.5486 25.2235 12.2814C25.2235 9.01393 23.9513 5.94221 21.6408 3.63197ZM20.5947 19.8845C18.5639 21.9155 15.8636 23.0338 12.9916 23.0338C11.2346 23.0338 9.48921 22.5992 7.94392 21.7767C7.66373 21.6278 7.33254 21.6022 7.03522 21.7063L1.69886 23.5739L3.56668 18.2376C3.67079 17.9399 3.64501 17.6087 3.49606 17.3287C2.67376 15.7838 2.23904 14.0383 2.23904 12.2812C2.23904 9.4092 3.3575 6.70889 5.38832 4.67807C7.41894 2.64745 10.1189 1.52899 12.9907 1.5286H12.9916C15.8638 1.5286 18.5639 2.64706 20.5947 4.67807C22.6257 6.70889 23.7442 9.40901 23.7442 12.2812C23.7442 15.1533 22.6257 17.8537 20.5947 19.8845Z"
+                  fill="white"
+                />
+                <path
+                  d="M17.5374 13.3738C16.9748 12.8112 16.0591 12.8112 15.4964 13.3738L14.881 13.9893C13.3528 13.1566 12.1162 11.92 11.2833 10.3918L11.8988 9.77638C12.4617 9.21368 12.4617 8.29805 11.8988 7.73536L10.2403 6.07691C9.67763 5.51422 8.762 5.51422 8.1993 6.07691L6.87262 7.40359C6.11268 8.16354 6.07477 9.47001 6.76582 11.0825C7.36585 12.4825 8.46391 14.0212 9.85775 15.4151C11.2516 16.8089 12.7903 17.907 14.1903 18.507C14.9564 18.8353 15.6533 18.9991 16.2554 18.9991C16.9207 18.9991 17.4703 18.7991 17.8692 18.4002L19.1959 17.0733V17.0735C19.4686 16.8008 19.6187 16.4385 19.6187 16.053C19.6187 15.6673 19.4686 15.305 19.1959 15.0325L17.5374 13.3738ZM16.8231 17.3541C16.6062 17.571 15.9392 17.647 14.7732 17.1474C13.542 16.6197 12.1678 15.6329 10.9039 14.369C9.63991 13.105 8.65327 11.731 8.1256 10.4998C7.62583 9.33376 7.70185 8.66658 7.91872 8.4497L9.22 7.14842L10.8273 8.75587L10.0569 9.5264C9.70861 9.87471 9.62451 10.403 9.84794 10.841C10.8607 12.8269 12.4459 14.4121 14.4319 15.4249C14.87 15.6483 15.3983 15.5644 15.7466 15.2159L16.5169 14.4455L18.1244 16.053L16.8231 17.3541Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+            <a class="header__link-item" href="#">
+              <svg
+                class="link"
+                width="14"
+                height="25"
+                viewBox="0 0 14 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8.64758 25H4.69753C4.03774 25 3.50103 24.456 3.50103 23.7873V14.7572H1.19649C0.53671 14.7572 0 14.213 0 13.5445V9.67503C0 9.00631 0.53671 8.46233 1.19649 8.46233H3.50103V6.52466C3.50103 4.60339 4.09627 2.96879 5.2222 1.79787C6.3532 0.621605 7.93378 0 9.79307 0L12.8056 0.00495908C13.4642 0.00610352 14 0.550079 14 1.21765V4.81033C14 5.47905 13.4635 6.02303 12.8039 6.02303L10.7756 6.02379C10.157 6.02379 9.99952 6.14948 9.96583 6.18801C9.91032 6.25191 9.84426 6.43253 9.84426 6.9313V8.46214H12.6515C12.8628 8.46214 13.0675 8.51498 13.2435 8.61454C13.6231 8.8295 13.859 9.23595 13.859 9.67522L13.8575 13.5447C13.8575 14.213 13.3208 14.757 12.661 14.757H9.84426V23.7873C9.84426 24.456 9.30736 25 8.64758 25ZM4.94707 23.5344H8.39804V14.101C8.39804 13.6545 8.75654 13.2914 9.1969 13.2914H12.4115L12.4128 9.92794H9.19671C8.75635 9.92794 8.39804 9.56478 8.39804 9.11827V6.9313C8.39804 6.35872 8.45544 5.70755 8.88187 5.21812C9.39713 4.62646 10.2092 4.55818 10.7752 4.55818L12.554 4.55742V1.47018L9.79195 1.46561C6.80391 1.46561 4.94707 3.40424 4.94707 6.52466V9.11827C4.94707 9.56459 4.58876 9.92794 4.1484 9.92794H1.44603V13.2914H4.1484C4.58876 13.2914 4.94707 13.6545 4.94707 14.101V23.5344ZM12.8028 1.47057H12.8029H12.8028Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+          </div>
+          <a href="#up" class="policy">Confidentional policy</a>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#head" class="pageup">
+      <img src="images/1.svg" alt="Arrow button to scroll up" />
+    </a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init()</script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
+

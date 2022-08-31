@@ -1,0 +1,69 @@
+.contacts__inner
+    display: flex
+    justify-content: space-between
+    color: $black
+.contacts__title
+    display: block
+    text-align: left
+    min-width: max-content
+    letter-spacing: 2px
+    color: $white
+    &::before
+        background: white
+        left: 250px 
+.contacts__info
+        padding-right: 150px
+.contacts__item
+    margin-bottom: 20px
+    font-size: 18px
+    line-height: 27px
+    &-title
+        color: $purple
+.contacts__list
+    padding: 0
+.contacts__phone
+    &:hover
+        color: $purple  
+.contacts__form
+    background: linear-gradient(180deg, #18877A 6.56%, #000000 78.96%)
+    min-width: 420px
+    max-height: 390px
+    padding: 20px 75px 57px
+    border-top-left-radius: 20px
+    border-top-right-radius: 20px
+    display: flex 
+    flex-direction: column
+    align-items: center
+.contacts__input 
+    margin-bottom: 12px
+    min-width: 450px
+    height: 60px
+    font-size: 26px
+    padding: 14px 10px
+    outline: solid 1px #fff
+    border-radius: 20px
+    text-transform: uppercase
+    border: 1px solid $white
+    color: $white
+    background: transparent
+    text-align: center
+    &::placeholder
+        font-size: 30px
+       
+.contacts__btn
+    margin-top: 75px
+    font-size: 14px
+    line-height: 21px
+    padding: 14px 65px
+    outline: solid 1px #fff
+    color: white
+    background: transparent
+    border-radius: 20px
+    text-transform: uppercase
+    transition: .3s all ease
+    cursor: pointer
+    &:hover
+        background: $purple
+        border: 2px solid white
+        box-shadow: 1px 1px 10px $purple
+        outline: none

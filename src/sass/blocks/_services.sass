@@ -1,0 +1,106 @@
+.services
+    padding-top: 350px
+    color: $black
+    &__inner 
+        display: flex
+        justify-content: center
+        margin-bottom: 100px
+    &__content 
+        min-width: 505px
+        margin-right: 96px
+    &__content-title
+        font-weight: 300
+        font-size: 18px
+        line-height: 27px
+        color: $purple
+        margin-bottom: 12px
+    &__content-textbox
+        margin-bottom: 57px
+    &__content-text
+        font-weight: 300
+        font-size: 18px
+        line-height: 27px
+        margin-bottom: 12px
+        color: $black
+    &__btn--decor
+        font-size: 14px
+        line-height: 21px
+        padding: 14px 65px
+        outline: solid 1px $black
+        border-radius: 20px
+        margin-bottom: -7px
+        text-transform: uppercase
+        display: inline-block
+        width: min-content
+        z-index: 10
+        position: relative
+        &:hover
+            background: $purple
+            border: none
+            box-shadow: 2px 2px 15px $purple
+            color: $white
+        &::after
+            content: 'click'
+            position: absolute
+            font-size: 14px
+            line-height: 21px
+            text-transform: uppercase
+            color: #C4C4C4
+            margin-left: 150px
+            pointer-events: none            
+        &::before
+            content: ''
+            position: absolute
+            width: 80px
+            height: 1px
+            background: #C4C4C4
+            top: 25px
+            right: -70px
+    &__list
+        list-style: none
+        counter-reset: my-counter
+        margin-top: 0
+        
+    &__item
+        border: 1px solid #C4C4C4
+        border-radius: 15px
+        margin-bottom: 12px
+        padding: 0
+        width: 450px
+        height: max-content
+        padding: 10px 15px 10px 112px
+        counter-increment: my-counter
+        position: relative
+        transition: all .3s ease
+        &:hover
+            border: 1px solid $purple
+            width: 420px
+            box-shadow: 1px 1px 10px $purple
+        &::before
+            content: '0' counter(my-counter)
+            color: #C4C4C4
+            font-size: 36px
+            line-height: 53px
+            font-weight: 400
+            text-transform: uppercase
+            position: absolute
+            left: 20px
+            top: 15px
+            transform: rotate(270deg)
+        &:hover::before
+            color: $purple
+        &-title
+            font-size: 30px
+            font-weight: 300
+            color: $black
+            margin: 0
+            margin-bottom: 4px
+            &:hover
+                color: $purple
+        &-text
+            font-size: 18px
+            color: $black
+            margin: 0px
+            
+      
+

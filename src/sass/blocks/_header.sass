@@ -1,0 +1,91 @@
+.header
+    background: url(../images/headerbg.webp) center (center/cover) no-repeat
+    min-height: 100vh
+    position: relative
+    border-bottom: 10px red
+    &__top
+        display: flex
+        justify-content: space-between
+        align-items: end
+        height: 80px
+    &__logo
+        min-height: 30px
+        padding-right: 20px
+    &__phone
+        font-size: 36px
+        font-weight: 400
+        &:hover
+            color: $purple
+
+.header__content 
+    display: flex
+    justify-content: space-between
+    text-align: start
+    flex-direction: column
+    text-shadow: 2px 2px 1px $purple
+    max-width: 850px
+   
+    &-title
+        margin-top: 150px
+        font-size: 72px
+        line-height: 106px
+        font-weight: 400
+        text-transform: uppercase
+        &::after
+            content: ''
+            width: 60px
+            height: 2px
+            background: red
+    &-subtitle 
+        font-size: 36px
+        line-height: 53px
+        font-weight: 400
+        text-transform: uppercase
+    &-text
+        font-weight: 300
+        font-size: 18px
+        line-height: 27px
+        margin-bottom: 37px
+    &-btn
+        font-size: 14px
+        line-height: 21px
+        padding: 14px 65px
+        outline: solid 1px #fff
+        border-radius: 20px
+        text-transform: uppercase
+        display: inline-block
+        width: min-content
+        z-index: 10
+        &:hover
+            background: $purple
+            outline: none
+            box-shadow: 2px 2px 15px $purple
+            transform: scale(1.1) translateX(20px)
+.header__link-items
+    display: flex
+    align-items: center
+    text-align: center
+    padding: 70px 0 0 28px
+    gap: 20px
+.link    
+    &:hover
+        filter: invert(0.4) sepia(1) saturate(20) hue-rotate(252deg) brightness(0.76)
+        transition: .4s
+.header__car
+    position: absolute
+    right: 160px
+    bottom: -220px
+    max-width: 650px
+.header__truck
+    position: absolute
+    left: 0
+    bottom: -290px
+    max-width: 650px
+
+            
+
+           
+            
+        
+        
+
